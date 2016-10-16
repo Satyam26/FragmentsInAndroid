@@ -7,25 +7,19 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.satyam.fragmentbyxml.MainActivity"
-    android:background="#7ed">
-
+    tools:context="com.example.satyam.fragmentsbyjava.MainActivity"
+    android:background="#d26"
+    android:id="@+id/rlactivity">
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="activity"
+        android:textSize="20sp"
+        android:padding="20sp"
         android:gravity="center"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        />
+        android:layout_alignParentStart="true" />
 
-    <fragment
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:name="com.example.satyam.fragmentbyxml.MyFragment"
-        android:id="@+id/fragment"
-        android:layout_below="@+id/textView"
-        android:layout_alignParentBottom="true"/>
+
 </RelativeLayout>
